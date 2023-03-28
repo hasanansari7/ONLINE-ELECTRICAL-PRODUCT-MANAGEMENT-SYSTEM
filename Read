@@ -1,0 +1,61 @@
+Online Electrical Product Management System
+
+Objective: To design a service-oriented website for the maintenance of electric products where customers can make complaints/requests online and get to know the information/policy of the company.
+
+Technology Stack:
+
+Frontend: HTML, CSS, JavaScript
+Backend: PHP
+Database: MySQL
+Web Server: XAMPP Server - XAMPP (Apache)
+Drawing Tool: Draw.io Graph Editor
+Minimum Hardware Requirements:
+
+Processor: 1.6 GHz or faster processor
+RAM: 1.5 GB
+Disk Space: 4 GB of available hard disk
+Graphic: DirectX 9-Capable Video Card
+Display: 1024 X 768 or Higher Resolution
+
+
+Modules with their Description:
+Home:
+Display the other modules and pages of the website, such as Services, Registration, Login, Contact, and Admin Login.
+Used to display the brief introduction of the project, customer reviews, and navigation details.
+
+Services:
+Describe the services provided by OEPMS to its customers.
+
+Registration:
+Provides a registration form where users/requesters can register themselves and submit service requests.
+Account creation is done by filling the registration form with user details such as name, phone, email, etc.
+
+Contact:
+Provides support to customers.
+
+Login:
+Has a username and password through which users can login & submit their requests.
+If the username and password are correct, users will be directed to the next page.
+
+User Panel:
+Profile: Users can see their registered email id and name, and update their name if they wish to change it. Registered Email ID is read-only so it can't be altered.
+Submit Request: Users can submit service requests by filling up all the details asked in the form. After submitting the form, the user will get a receipt which they can print.
+Service Status: Users can check their request status by filling up the service request id.
+Change Password: Users can change their logging password.
+Logout: Users can logout and exit the application.
+
+Admin Panel:
+Admin panel login form where admin can enter their email id and password for logging into the Admin panel.
+Dashboard: Displays an overview of the work and other stuffs like the number of technicians and the list of requesters.
+Work Order: Contains all the assigned requests made by users. Admin can view or delete the assigned work as per their need.
+Sell Report: Used to view and print sell reports of Assets.
+
+Requester: The main work to accomplish in this module is to add, modify or remove Requester/User. This contains a few sub-modules:
+New: Used to add new requester details in the service create database.
+Edit: Used to modify existing details of the requester.
+Remove: Used to remove requesters from the service center.
+Change Password: Users can change their login password.
+Logout: Users can logout and exit the application.
+
+Technician:
+The main work to accomplish in this module is to add, modify or remove Technicians from the service center.
